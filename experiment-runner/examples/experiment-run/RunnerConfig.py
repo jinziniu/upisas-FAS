@@ -11,16 +11,18 @@ import requests
 
 
 class RunnerConfig:
+    # Root directory for the experiment runner
     ROOT_DIR = Path(__file__).parent
 
     # Experiment configuration
     name: str = "crowdnav_api_experiment 0.1"
     results_output_path: Path = ROOT_DIR / "experiments"
-    operation_type: OperationType = OperationType.AUTO
-    time_between_runs_in_ms: int = 1000
+    time_log_path: Path = Path(r"E:\Python\projects\UPISAS\time_log.txt")
+    operation_type: OperationType = OperationType.AUTO  # 添加 operation_type 属性
     BASE_URL = "http://localhost:8080"
-
     def __init__(self):
+        self.results_output_path.mkdir(parents=True, exist_ok=True)
+        print("Custom config initialized with results_output_path:", self.results_output_path)
         EventSubscriptionController.subscribe_to_multiple_events([
             (RunnerEvents.BEFORE_EXPERIMENT, self.before_experiment),
             (RunnerEvents.BEFORE_RUN, self.before_run),
