@@ -1,0 +1,25 @@
+[2024-11-19T00:12:40.761+0100][gc,init] CardTable entry size: 512
+[2024-11-19T00:12:40.761+0100][gc     ] Using G1
+[2024-11-19T00:12:40.765+0100][gc,init] Version: 21.0.5+11-Ubuntu-1ubuntu124.04 (release)
+[2024-11-19T00:12:40.765+0100][gc,init] CPUs: 16 total, 16 available
+[2024-11-19T00:12:40.765+0100][gc,init] Memory: 15636M
+[2024-11-19T00:12:40.765+0100][gc,init] Large Page Support: Disabled
+[2024-11-19T00:12:40.765+0100][gc,init] NUMA Support: Disabled
+[2024-11-19T00:12:40.766+0100][gc,init] Compressed Oops: Enabled (32-bit)
+[2024-11-19T00:12:40.766+0100][gc,init] Heap Region Size: 1M
+[2024-11-19T00:12:40.773+0100][gc,init] Heap Min Capacity: 512M
+[2024-11-19T00:12:40.773+0100][gc,init] Heap Initial Capacity: 512M
+[2024-11-19T00:12:40.774+0100][gc,init] Heap Max Capacity: 512M
+[2024-11-19T00:12:40.774+0100][gc,init] Pre-touch: Disabled
+[2024-11-19T00:12:40.774+0100][gc,init] Parallel Workers: 13
+[2024-11-19T00:12:40.774+0100][gc,init] Concurrent Workers: 3
+[2024-11-19T00:12:40.774+0100][gc,init] Concurrent Refinement Workers: 13
+[2024-11-19T00:12:40.774+0100][gc,init] Periodic GC: Disabled
+[2024-11-19T00:12:40.779+0100][gc,metaspace] CDS archive(s) mapped at: [0x00007fad43000000-0x00007fad43c97000-0x00007fad43c97000), size 13201408, SharedBaseAddress: 0x00007fad43000000, ArchiveRelocationMode: 1.
+[2024-11-19T00:12:40.779+0100][gc,metaspace] Compressed class space mapped at: 0x00007fad44000000-0x00007fad84000000, reserved size: 1073741824
+[2024-11-19T00:12:40.779+0100][gc,metaspace] Narrow klass base: 0x00007fad43000000, Narrow klass shift: 0, Narrow klass range: 0x100000000
+[2024-11-19T00:12:41.601+0100][gc,heap,exit] Heap
+[2024-11-19T00:12:41.602+0100][gc,heap,exit]  garbage-first heap   total 524288K, used 20529K [0x00000000e0000000, 0x0000000100000000)
+[2024-11-19T00:12:41.602+0100][gc,heap,exit]   region size 1024K, 19 young (19456K), 0 survivors (0K)
+[2024-11-19T00:12:41.602+0100][gc,heap,exit]  Metaspace       used 6893K, committed 7104K, reserved 1114112K
+[2024-11-19T00:12:41.602+0100][gc,heap,exit]   class space    used 707K, committed 832K, reserved 1048576K
