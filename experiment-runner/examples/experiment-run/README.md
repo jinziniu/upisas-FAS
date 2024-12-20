@@ -72,37 +72,7 @@ Simulates dynamic traffic scenarios and provides an API for interacting with the
 }
 ```
 
-## How to Run
 
-1. **Setup Docker**
-
-   - Ensure Docker is installed and configured.
-   - Start the CrowdNav container.
-
-2. **Run the Experiment**
-
-   - Execute the 
-
-     ```
-     RunnerConfig
-     ```
-
-      by running:
-
-     ```bash
-     python <script_name>.py
-     ```
-
-3. **Monitor Results**
-
-   - Results will be stored in the `experiments` directory.
-   - Key metrics include `trip_overhead` and system performance statistics.
-
-## Future Improvements
-
-- Extend reinforcement learning to support more complex traffic scenarios.
-- Enhance the CrowdNav simulator with additional environmental variables.
-- Incorporate real-time data from live traffic systems.
 
 ## Dependencies
 
