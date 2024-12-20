@@ -1,6 +1,7 @@
 import pprint, time
 from UPISAS.exemplar import Exemplar
 import logging
+
 pp = pprint.PrettyPrinter(indent=4)
 logging.getLogger().setLevel(logging.INFO)
 
